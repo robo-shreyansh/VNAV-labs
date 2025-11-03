@@ -54,7 +54,7 @@ class FramesPublisherNode : public rclcpp::Node {
     rclcpp::Duration elapsed_time = this->now() - startup_time;
     double elapsed_sec = elapsed_time.seconds();
 
-    RCLCPP_INFO(logger, "Ok getting logged! %lf", elapsed_time.seconds());
+    // RCLCPP_INFO(logger, "Ok getting logged! %lf", elapsed_time.seconds());
     
     // Here we declare two geometry_msgs::msg::TransformStamped objects, which
     // need to be populated
